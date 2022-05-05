@@ -1,13 +1,13 @@
-package chapter_1.Classclass.newinstance;
+package creatation.singleton.Classclass.newinstance;
 
 public class NewInstance {
     public static void main(String[] args) {
         try {
-            Class clazz = Class.forName("chapter_1.Classclass.newinstance.SendAction");
+            Class clazz = Class.forName("creatation.singleton.Classclass.newinstance.SendAction");
             Action action = (Action) clazz.newInstance();
             action.execute();
 
-            Class clazz1 = Class.forName("chapter_1.Classclass.newinstance.ReceiveAction");
+            Class clazz1 = Class.forName("creatation.singleton.Classclass.newinstance.ReceiveAction");
             Action action1 = (Action) clazz1.newInstance();
             action1.execute();
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {

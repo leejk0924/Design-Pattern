@@ -1,4 +1,4 @@
-package chapter_1.Classclass.reflection;
+package creatation.singleton.Classclass.reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 
 public class ReflectionApp {
     public static void main(String[] args) throws ClassNotFoundException {
-        Class clazz = Class.forName("chapter_1.Classclass.reflection.Car");
+        Class clazz = Class.forName("creatation.singleton.Classclass.reflection.Car");
         System.out.println("클래스 이름");
         System.out.println(clazz.getName());
         System.out.println();

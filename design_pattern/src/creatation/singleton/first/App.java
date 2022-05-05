@@ -1,8 +1,4 @@
-package chapter_1.first;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
+package creatation.singleton.first;
 
 public class App {
     public static void main(String[] args) {
