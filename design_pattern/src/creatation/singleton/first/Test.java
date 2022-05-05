@@ -1,4 +1,4 @@
-package chapter_1.first;
+package creatation.singleton.first;
 
 public class Test {
     public static void main(String[] args) {

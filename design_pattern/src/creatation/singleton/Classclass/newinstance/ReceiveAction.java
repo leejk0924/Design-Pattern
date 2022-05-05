@@ -1,4 +1,4 @@
-package chapter_1.Classclass.newinstance;
+package creatation.singleton.Classclass.newinstance;
 
 public class ReceiveAction implements Action{
     @Override
