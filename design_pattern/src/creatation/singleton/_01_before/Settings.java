@@ -4,8 +4,8 @@ public class Settings {
         private static Settings instance;
     private Settings() {
     }
-    public static Settings getInstance() {
-        if (instance == null) {     // instance 가 만들어졌는지 확인하는 구문
+    public static synchronized Settings getInstance() {
+        if (instance == null) {
             instance = new Settings();
         }
         return instance;
